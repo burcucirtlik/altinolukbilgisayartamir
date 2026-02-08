@@ -17,7 +17,7 @@
 
 body {
   min-height: 100vh;
-  background: #f8fafc;
+  background: radial-gradient(circle at top, #eff6ff, #fee2e2 45%, #fff 100%);
   color: inherit;
 }
 
@@ -233,6 +233,37 @@ main {
 
 .services {
   padding-bottom: 1rem;
+}
+
+.reviews {
+  padding-bottom: 2rem;
+}
+
+.review-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.review-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 1.5rem;
+  box-shadow: 0 16px 32px rgba(15, 23, 42, 0.08);
+  color: #0f172a;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.review-stars {
+  color: #dc2626;
+  letter-spacing: 1px;
 }
 
 .service-grid {
