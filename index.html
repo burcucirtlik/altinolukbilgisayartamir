@@ -14,13 +14,15 @@
     <a class="skip-link" href="#icerik">İçeriğe geç</a>
     <header class="site-header">
       <nav class="nav" aria-label="Ana menü">
-        <div class="logo">Altınoluk Bilgisayar</div>
+        <div class="logo">
+          <img src="/logo.svg" alt="Altınoluk Bilgisayar logosu" />
+          <span>Altınoluk Bilgisayar</span>
+        </div>
         <div class="nav-links">
           <a href="#hizmetler">Hizmetler</a>
           <a href="#iletisim">Harita &amp; Telefon</a>
           <a href="#sss">SSS</a>
         </div>
-        <a class="nav-phone" href="tel:+905334289076">0 533 428 90 76</a>
       </nav>
     </header>
 
@@ -117,11 +119,15 @@
             </div>
           </div>
         </div>
-        <div class="map-placeholder" data-animate="slide-left" role="img" aria-label="Harita ön izleme alanı">
-          <div class="map-card">
-            <p>Harita yakında eklenecek</p>
-            <span>Google Maps veya OpenStreetMap embed</span>
-          </div>
+        <div class="map-placeholder" data-animate="slide-left">
+          <iframe
+            class="map-embed"
+            title="Altınoluk Bilgisayar konumu"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=Alt%C4%B1noluk%20Edremit&output=embed"
+            allowfullscreen
+          ></iframe>
         </div>
       </section>
 
