@@ -459,6 +459,7 @@ main {
     gap: 1.5rem;
   }
   
+  /* Override slide-left animation on mobile to prevent horizontal overflow */
   [data-animate="slide-left"] {
     transform: translateY(24px);
   }
